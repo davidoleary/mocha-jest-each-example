@@ -1,0 +1,32 @@
+{
+  "name": "mocha-jest-each-example",
+  "version": "1.0.0",
+  "description": "Mocha and Jest have an \"each\" function for testing a function with different params",
+  "main": "index.js",
+  "scripts": {
+    "testMocha": "node_modules/.bin/mocha .\\mocha-example.js",
+    "testJest": "node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidoleary/mocha-jest-each-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidoleary/mocha-jest-each-example/issues"
+  },
+  "homepage": "https://github.com/davidoleary/mocha-jest-each-example#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.2.6",
+    "enzyme": "^3.4.1",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "jest": "^23.5.0",
+    "mocha": "^5.2.0",
+    "mocha-each": "^1.1.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
